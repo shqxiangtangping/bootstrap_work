@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+  <script src="jquery-3.5.1/jquery-3.5.1.js"></script>
+  <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
+  <script src="bootstrap-4.5.3-dist/js/bootstrap.js"></script>
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+    <style type="text/css">
+      #nav{
+                            width: 800px;
+                            height: 48px;
+                            margin: 0 auto;
+                            background-color:#1845ad;
+                            font-family:"幼圆";
+                            font-size: 18px;
+                          }
+    #nav ul{
+      margin: 0px;
+      padding: 0px;
+    }
+    #nav ul li{
+      float: left;
+      width: 88px;
+      height: 48px;
+      line-height: 48px;
+      float: left;
+      list-style: none;
+      text-align: center;
+    }
+    #nav ul li:hover{
+      background-color: #4c68ff;
+    }
+    #nav a{
+      color:white;
+      text-decoration: none;
+    }
+    #nav ul li ul{
+      display: none;
+    }
+    #nav ul li ul li{
+      background-color:#4c68ff;
+    }
+    #nav ul li:hover ul{
+      display: block;
+      background-color: #4c68ff;
+    }
+    #nav ul li ul li:hover{
+      background: #ffa4a4;
+    }
+  </style>
+</head>
+<body>
+<br>
+<div id="nav">
+  <ul>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">推荐</a>
+      <ul>
+        <li><a href="#">招生信息</a></li>
+        <li><a href="#">就业信息</a></li>
+      </ul>
+    </li>
+    <li><a href="#">排行榜</a></li>
+      <ul>
+        <li><a href="#">动漫</a>
+        <ul>
+        <li><a href="#">国漫</a></li>
+        <li><a href="#">日漫</a></li>
+        </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#">漫画</a></li>
+    <li><a href="#">少儿动画</a></li>
+    <li><a href="#">圈子</a></li>
+    <li style="width: 96px"><a href="#">留言板</a></li>
+  </ul>
+</div>
+</body>
+</html>
