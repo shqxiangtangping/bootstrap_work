@@ -50,12 +50,42 @@
     #nav ul li ul li:hover{
       background:#e2e3e5;
     }
-  </style>
+      .search{
+        position: absolute;
+        left: 346px;
+        top:25px;
+        width: 538px;
+        height: 36px;
+        border: 2px solid #95999c;
+        margin-left: 150px;
+      }
+      .search input{
+        float: left;
+        width: 454px;
+        height: 33px;
+        padding-left: 10px;
+      }
+      .search button{
+        float: left;
+        width: 80px;
+        height: 33px;
+        background-color: #565e64;
+        font-size: 16px;
+        color: #fff;
+      }
+    </style>
 </head>
 <body>
 <!--背景图片-->
 <div id="back" style="position:absolute; left:0px; top:0px; width:1490px; height:480px">
-  <img src="素材/背景（备用）.jpg" width="1490" height="480"/>
+  <img  class="ig" src="素材/logo.jpg"width="1490" height="480">
+  <!--搜索框-->
+    <div class="search">
+        <input type="search" name="" id="" placeholder="请输入...">
+        <button type="button">嗖一下</button>
+    </div>
+    <br>
+    <br>
 <!--导航栏-->
 <div id="nav">
   <ul>
